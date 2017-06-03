@@ -56,7 +56,6 @@ def authorized():
         )
     session['dropbox_token'] = (resp['access_token'], '')
     user_info = dropbox.get('account/info')
-    print('User Info: %s' % str(user_info))
     # Store User Info in User Table of SQL DB
     return jsonify(user_info.data)
 
