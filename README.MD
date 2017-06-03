@@ -1,1 +1,1 @@
-Image Editing and Dropbox Upload Service.
+# Image-Edit-Dropbox
